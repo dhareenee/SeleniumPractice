@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="User Registeration Validation">
+    <classes>
+       <class name="gwwpqa.TestScript.RegisterPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="User Login and Product Search Validation">
+    <classes>
+      <class name="gwwpqa.TestScript.loginPageTest"/>
+     </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
